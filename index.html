@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Charly's Hangman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" 
+          href="Bravo.png" />
+  </head>
+  <body>
+    <main>  
+      <h1>Geographical Hangman</h1>
+      <h1>Guess That Country!</h1>
+      <div id="gallows">
+        <img style="padding-left: 70px" width="500" height="375" id="hangmanImage" src="hangman0.png">
+      </div>
+      <div id="word">_________</div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Country</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="hangman.js"></script>
+  </body>
+</html>
